@@ -1,16 +1,23 @@
 # 🌤️ Skyline — Weather Dashboard
 
-A clean, atmospheric weather dashboard built with vanilla HTML, CSS, and JavaScript. No frameworks, no build tools, no API key required.
+A clean, atmospheric weather dashboard with dynamic backgrounds, built with vanilla HTML, CSS, and JavaScript. No frameworks, no build tools, no API key required.
 
-**[Live Demo →](https://skyline-weather.jaysonsandhu.com)** &nbsp;|&nbsp; **[Portfolio →](https://jaysonsandhu.com)**
+**[Live Demo →](https://skyline.jaysonsandhu.com)** &nbsp;|&nbsp; **[Portfolio →](https://jaysonsandhu.com)**
 
 ![Skyline Weather Dashboard](./assets/preview.png)
+
+---
+
+## Why This Project
+
+This project was built to demonstrate how real-time API data can be translated into a polished, interactive user experience without relying on frameworks or build tools.
 
 ---
 
 ## Features
 
 - **Real-time weather** — current conditions including temperature, humidity, wind, UV index, pressure, and visibility
+- **Dynamic sky engine** — background adapts in real time with animated sun, moon, clouds, rain, snow, and lightning
 - **Hourly forecast** — next 24 hours with precipitation probability
 - **7-day outlook** — daily high/low with visual temperature range bars
 - **Sunrise & sunset** — live sun position arc based on current time
@@ -38,8 +45,8 @@ A clean, atmospheric weather dashboard built with vanilla HTML, CSS, and JavaScr
 No setup required. Just open the file:
 
 ```bash
-git clone https://github.com/jayson-s/skyline-weather.git
-cd skyline-weather
+git clone https://github.com/jayson-s/skyline-weather-dashboard.git
+cd skyline-weather-dashboard
 open index.html   # macOS
 # or just drag index.html into your browser
 ```
@@ -51,7 +58,7 @@ That's it. No `npm install`, no `.env` file, no configuration.
 ## Project Structure
 
 ```
-skyline-weather/
+skyline-weather-dashboard/
 ├── index.html   # Markup and layout
 ├── style.css    # All styles and animations
 ├── app.js       # API calls, data rendering, interactivity
@@ -78,18 +85,6 @@ GET https://api.open-meteo.com/v1/forecast
   &daily=weather_code,temperature_2m_max,temperature_2m_min,...
   &forecast_days=7
 ```
-
----
-
-## Deployment
-
-**Vercel (recommended):**
-1. Push this repo to GitHub
-2. Go to [vercel.com](https://vercel.com) → Import Project → select your repo
-3. Click Deploy — done. No configuration needed.
-
-**Custom domain:**
-In your Vercel project settings, add `skyline-weather.jaysonsandhu.com` as a custom domain, then add a CNAME record in your DNS pointing to `cname.vercel-dns.com`.
 
 ---
 
