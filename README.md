@@ -4,7 +4,7 @@ A clean, atmospheric weather dashboard built with vanilla HTML, CSS, and JavaScr
 
 **[Live Demo →](https://skyline-weather.jaysonsandhu.com)** &nbsp;|&nbsp; **[Portfolio →](https://jaysonsandhu.com)**
 
-![Skyline Weather Dashboard](https://via.placeholder.com/860x480/0a0c10/f5a623?text=Skyline+Weather+Dashboard)
+![Skyline Weather Dashboard](./assets/preview.png)
 
 ---
 
